@@ -30,7 +30,7 @@ To use this server with Claude Desktop, add the following to your configuration 
       "command": "npx",
       "args": [
         "-y",
-        "github:yiyangli@sms-mcp-server"
+        "@yiyang.1i/sms-mcp-server"
       ],
       "env": {
         "ACCOUNT_SID": "your_account_sid",
