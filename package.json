@@ -1,6 +1,6 @@
 {
   "name": "@yiyang.1i/sms-mcp-server",
-  "version": "2025.2.20",
+  "version": "2025.2.21",
   "description": "A Model Context Protocol (MCP) server that enables Claude and other AI assistants to send SMS and MMS messages using Twilio.",
   "license": "MIT",
   "author": "Yiyang Li",

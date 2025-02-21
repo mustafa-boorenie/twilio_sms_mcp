@@ -8,6 +8,19 @@ A Model Context Protocol (MCP) server that enables Claude and other AI assistant
 - Pre-built prompts for common messaging scenarios 📝
 - Secure handling of Twilio credentials 🔒
 
+## Requirements
+
+- Node.js >= 18
+  - If you need to update Node.js, we recommend using `nvm` (Node Version Manager):
+    ```bash
+    nvm install 18.14.2
+    nvm alias default 18.14.2
+    ```
+  - If you encounter any errors in Claude Desktop, try running the following command in your terminal to verify the installation:
+    ```bash
+    npx -y @yiyang.1i/sms-mcp-server
+    ```
+
 ## Configuration
 
 The server requires three environment variables:
