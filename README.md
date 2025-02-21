@@ -50,12 +50,12 @@ Here are some natural ways to interact with the server through Claude:
 
 1. Simple SMS:
 ```
-Send a text message to +11234567890 saying "Don't forget about dinner tonight!"
+Send a text message to the number +11234567890 saying "Don't forget about dinner tonight!"
 ```
 
 2. Creative SMS:
 ```
-Write a haiku about autumn and send it to +11234567890
+Write a haiku about autumn and send it to my number +11234567890
 ```
 
 ## Important Notes
