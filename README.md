@@ -31,7 +31,7 @@ To use this server with Claude Desktop, add the following to your configuration 
       "args": [
         "-y",
         "github:yiyangli@sms-mcp-server"
-      ]
+      ],
       "env": {
         "ACCOUNT_SID": "your_account_sid",
         "AUTH_TOKEN": "your_auth_token",
@@ -41,6 +41,8 @@ To use this server with Claude Desktop, add the following to your configuration 
   }
 }
 ```
+After that, restart Claude Desktop in order to reload the configuration. 
+If connected, you may see twilio under the 🔨 menu.
 
 ## Example Interactions with Claude
 
