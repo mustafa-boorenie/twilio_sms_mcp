@@ -37,7 +37,8 @@ The server requires three environment variables:
 
 To use this server with Claude Desktop, add the following to your configuration file:
 
-**MacOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
 **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
@@ -58,8 +59,8 @@ To use this server with Claude Desktop, add the following to your configuration 
   }
 }
 ```
-After that, restart Claude Desktop in order to reload the configuration. 
-If connected, you may see twilio under the 🔨 menu.
+After that, restart Claude Desktop to reload the configuration. 
+If connected, you should see Twilio under the 🔨 menu.
 
 ## Example Interactions with Claude
 
@@ -89,7 +90,7 @@ Common error messages and solutions:
    - Make sure the phone number starts with "+" and the country code
 
 2. "Invalid credentials"
-   - Double-check your ACCOUNT_SID and AUTH_TOKEN, you may copy them from [Twilio Console[(console.twilio.com)
+   - Double-check your ACCOUNT_SID and AUTH_TOKEN. You can copy them from the [Twilio Console](https://console.twilio.com)
 
 ## Contributing
 
