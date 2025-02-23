@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that enables Claude and other AI assistants to send SMS and MMS messages using Twilio.
 
+## Demo
+
+![Demo](./assets/demo.gif)
+
 ## Features
 
 - Send SMS messages 📱
