@@ -44,7 +44,7 @@ PORT=3000
 
 ### Local Development
 
-```bash
+    ```bash
 # Install dependencies
 npm install
 
@@ -59,7 +59,7 @@ npm run start:web
 
 # Development mode (rebuilds and starts web server)
 npm run dev:web
-```
+    ```
 
 ## 🌐 Web API Endpoints
 
