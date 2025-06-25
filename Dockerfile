@@ -6,10 +6,10 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install all dependencies (including dev dependencies)
-RUN npm ci
+# Install dependencies without running lifecycle scripts (to avoid running build before sources are copied)
+RUN npm ci --ignore-scripts
 
-# Copy source code
+# Copy the rest of the source code
 COPY . .
 
 # Build the application
@@ -20,9 +20,13 @@ FROM node:18-alpine AS production
 
 WORKDIR /app
 
-# Copy built application and dependencies from builder stage
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/node_modules ./node_modules
+# Copy package files
+COPY package*.json ./
+
+# Install only production dependencies
+RUN npm ci --omit=dev --ignore-scripts && npm cache clean --force
+
+# Copy built application from builder stage
 COPY --from=builder /app/build ./build
 
 # Expose port
